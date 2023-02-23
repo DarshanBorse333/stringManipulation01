@@ -19,8 +19,10 @@ public class Program
         //fullName = fName + " " + mName + " " + lName;
         //Console.WriteLine(fullName);
 
-        //var str = Console.ReadLine();
-        //Console.WriteLine(str); 
+
+
+
+        //Calculate lenght of the string
 
         //Console.WriteLine("Enter any string :");
         //var str = Console.ReadLine();
@@ -33,6 +35,10 @@ public class Program
         //}
 
         //Console.WriteLine("length of character is = "+counter);
+
+
+
+        //caluculate the vowels from the string
 
         Console.WriteLine("Please Enter any string : ");
         var str = Console.ReadLine();

@@ -22,7 +22,7 @@ public class Program
 
 
 
-        //Calculate lenght of the string
+        //Calculate lenght of the string//
 
         //Console.WriteLine("Enter any string :");
         //var str = Console.ReadLine();
@@ -38,23 +38,65 @@ public class Program
 
 
 
-        //caluculate the vowels from the string
 
-        Console.WriteLine("Please Enter any string : ");
+        //caluculate the vowels from the string//
+
+        //Console.WriteLine("Please Enter any string : ");
+        //var str = Console.ReadLine();
+
+        //int vowelsCounter = 0;
+
+        //foreach (var item in str)
+        //{
+        //    if (item == 'a' || item == 'e' || item == 'i' || item == 'o' || item == 'u' ||
+        //        item == 'A' || item == 'E' || item == 'I' || item == 'O' || item == 'U')
+        //    {
+        //        vowelsCounter++;
+        //    }
+
+        //}
+        //    Console.WriteLine("total number of vowels are : " + vowelsCounter);
+
+
+
+
+        // Calculate spaces between string //
+
+        //Console.WriteLine("Enter any Line of string : ");
+        //var str = Console.ReadLine();
+
+        //int spacecounter = 0;
+
+        //foreach (var item in str)
+        //{
+        //    if (item == ' ')
+        //    {
+        //        spacecounter++;
+        //    }
+        //}
+
+        //Console.WriteLine("number of spaces are = " + spacecounter);
+
+
+
+
+        //calculate consonents from the string //
+
+        Console.WriteLine("Enter any line of string :");
         var str = Console.ReadLine();
 
-        int vowelsCounter = 0;
+        int ConsonentCount = 0;
 
-        foreach (var item in str)
+        foreach(var item in str)
         {
-            if (item == 'a' || item == 'e' || item == 'i' || item == 'o' || item == 'u' ||
-                item == 'A' || item == 'E' || item == 'I' || item == 'O' || item == 'U')
+            if(item != 'a' && item != 'e' && item != 'i' && item != 'o' && item != 'u' &&
+                item != ' ' && item != 'A' && item != 'E' && item != 'I' && item != 'O' && item != 'U')
             {
-                vowelsCounter++;
+                ConsonentCount++;
             }
-
         }
-            Console.WriteLine("total number of vowels are : " + vowelsCounter);
-        
+        Console.WriteLine("Consonent count is = " + ConsonentCount);
+
+
     }
 }
